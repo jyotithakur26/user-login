@@ -19,7 +19,7 @@ I have placed my form code in `app component`, it has three files
 * Added user details in the form before clicked on the Create Account button.
 <img width="488" alt="image" src="https://github.com/jyotithakur26/user-login/assets/140992312/aa6fe00b-9d5f-4f19-a861-5b67108f3d89">
 
-* After clicked on the Create Account button
+* After clicked on the Create Account button.
 <img width="469" alt="image" src="https://github.com/jyotithakur26/user-login/assets/140992312/5ac26cc5-46b8-49d7-a5f8-9db7eba5f8d3">
 
 
@@ -36,10 +36,10 @@ I have placed my form code in `app component`, it has three files
 <img width="481" alt="image" src="https://github.com/jyotithakur26/user-login/assets/140992312/90cdff67-7a4f-4cff-86a2-968dc37a113e">
 
 
-### Errors when user filled wrong field
+### Errors when user filled wrong values.
 <img width="482" alt="image" src="https://github.com/jyotithakur26/user-login/assets/140992312/5e65cb2b-8803-4ebb-8edb-bf3a25eb1cc1">
 
-### After Submit the form, the value is displaying in table
+### After Submit the form, the value is displaying in table.
 <img width="467" alt="image" src="https://github.com/jyotithakur26/user-login/assets/140992312/b251a797-7453-4251-9855-f3f1cdb2688d">
 
 
