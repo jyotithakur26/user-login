@@ -16,7 +16,7 @@ I have placed my form code in `app component`, it has three files
 ## Output Screenshot
 
 ### a. Create a new user account:
-* Added user details in the form before click on the Create Account button.
+* Added user details in the form before clicked on the Create Account button.
 <img width="488" alt="image" src="https://github.com/jyotithakur26/user-login/assets/140992312/aa6fe00b-9d5f-4f19-a861-5b67108f3d89">
 
 * After clicked on the Create Account button
