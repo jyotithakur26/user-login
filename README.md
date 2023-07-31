@@ -12,7 +12,10 @@ I have placed my form code in `app component`, it has three files
 * `app.component.html` - It contains the html code.
 * `app.component.ts` - It consists style.
 * `app componet` is imported under the app.module.ts file
-  
+
+## Output Screenshot
+<img width="838" alt="image" src="https://github.com/jyotithakur26/user-login/assets/140992312/fd368f72-be8c-4566-967a-eaa361bcd75b">
+
 
 
 ## Typescript code
@@ -233,11 +236,9 @@ export class AppComponent implements OnInit {
   </div>
 </div>
 
-<!-- <h1 *ngIf="!editFlag">Add User</h1>
-<h1 *ngIf="editFlag">Edit User</h1> -->
-
-
 ```
+
+
 
 
 
