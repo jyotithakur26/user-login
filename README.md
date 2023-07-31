@@ -3,8 +3,8 @@ User Management System
 
 ## Design choices:
 I used Angular it is a javascript framework to create User management system. Because it gives the reactive form facility to create form field with validations, we can also create and customise the validations in the fuctions. I have created the component to create form. This component exists .ts, html and style files.
-
-For style I install Bootstrap in angular. I used the Bootstrap classes to style the form fields, table structure and buttons
+For style I install Bootstrap in angular. I used the Bootstrap classes to style the form fields, table structure and buttons.
+Backend and things dependent on backend are out of scope. I am sharing the frontend part as I discussed.
 
 ## File structure
 I have placed my form code in `app component`, it has three files
@@ -14,28 +14,27 @@ I have placed my form code in `app component`, it has three files
 * `app componet` is imported under the app.module.ts file
 
 ## Output Screenshot
-### Before fill the form
+
+### a. Create a new user account:
 <img width="838" alt="image" src="https://github.com/jyotithakur26/user-login/assets/140992312/fd368f72-be8c-4566-967a-eaa361bcd75b">
 
-### Error when user filled with wrong field
-<img width="643" alt="image" src="https://github.com/jyotithakur26/user-login/assets/140992312/cc9bbd1d-671c-48b0-8bf8-e53a5ca8b087">
-
-### After filled the form
+### b. Get user by ID:
 <img width="595" alt="image" src="https://github.com/jyotithakur26/user-login/assets/140992312/9153dbc8-7311-4e18-b019-ba2755385f74">
 
-### After Submit the form, the value stored in table
-<img width="560" alt="image" src="https://github.com/jyotithakur26/user-login/assets/140992312/6761b9a7-80dc-4922-ab67-62bd6469a08a">
-
-### Value edited/updated
-<img width="566" alt="image" src="https://github.com/jyotithakur26/user-login/assets/140992312/aa567844-4f74-402f-8049-329f4a7d0e0e">
-
-### Added Multiple value
+### d. Get all users:
 <img width="514" alt="image" src="https://github.com/jyotithakur26/user-login/assets/140992312/1184c548-dd10-4691-98c7-65bc351ac460">
 
-### Delete Value
+### e. Update user details:
+<img width="566" alt="image" src="https://github.com/jyotithakur26/user-login/assets/140992312/aa567844-4f74-402f-8049-329f4a7d0e0e">
+
+### f. Delete a user:
 <img width="496" alt="image" src="https://github.com/jyotithakur26/user-login/assets/140992312/5676c638-1706-4dc5-8335-6267d990196f">
 
+### Errors when user filled with wrong field
+<img width="643" alt="image" src="https://github.com/jyotithakur26/user-login/assets/140992312/cc9bbd1d-671c-48b0-8bf8-e53a5ca8b087">
 
+### After Submit the form, the value is displaying in table
+<img width="560" alt="image" src="https://github.com/jyotithakur26/user-login/assets/140992312/6761b9a7-80dc-4922-ab67-62bd6469a08a">
 
 
 ## Typescript code
