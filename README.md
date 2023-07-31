@@ -11,7 +11,7 @@ I have placed my form code in `app component`, it has three files
 * `app.component.ts` -  It has the typescript code.
 * `app.component.html` - It contains the html code.
 * `app.component.ts` - It consists style.
-* `app componet` is imported under the app.module.ts file
+* `app componet` is imported under the `app.module.ts` file, because it the root of the project.
 
 ## Output Screenshot
 
