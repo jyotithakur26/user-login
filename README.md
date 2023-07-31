@@ -16,25 +16,25 @@ I have placed my form code in `app component`, it has three files
 ## Output Screenshot
 
 ### a. Create a new user account:
-<img width="838" alt="image" src="https://github.com/jyotithakur26/user-login/assets/140992312/fd368f72-be8c-4566-967a-eaa361bcd75b">
+<img width="488" alt="image" src="https://github.com/jyotithakur26/user-login/assets/140992312/aa6fe00b-9d5f-4f19-a861-5b67108f3d89">
 
-### b. Get user by ID:
-<img width="595" alt="image" src="https://github.com/jyotithakur26/user-login/assets/140992312/9153dbc8-7311-4e18-b019-ba2755385f74">
-
-### d. Get all users:
-<img width="514" alt="image" src="https://github.com/jyotithakur26/user-login/assets/140992312/1184c548-dd10-4691-98c7-65bc351ac460">
 
 ### e. Update user details:
-<img width="566" alt="image" src="https://github.com/jyotithakur26/user-login/assets/140992312/aa567844-4f74-402f-8049-329f4a7d0e0e">
+<img width="478" alt="image" src="https://github.com/jyotithakur26/user-login/assets/140992312/03de8ec3-3994-4801-a2d6-d8f97dc5e9bf">
+
 
 ### f. Delete a user:
-<img width="496" alt="image" src="https://github.com/jyotithakur26/user-login/assets/140992312/5676c638-1706-4dc5-8335-6267d990196f">
+* Three user account before deleting
+<img width="479" alt="image" src="https://github.com/jyotithakur26/user-login/assets/140992312/453ccb91-1a66-4be7-a618-c117ded64ca1">
+* Two auser account after deleted one account
+<img width="481" alt="image" src="https://github.com/jyotithakur26/user-login/assets/140992312/90cdff67-7a4f-4cff-86a2-968dc37a113e">
 
-### Errors when user filled with wrong field
-<img width="643" alt="image" src="https://github.com/jyotithakur26/user-login/assets/140992312/cc9bbd1d-671c-48b0-8bf8-e53a5ca8b087">
+
+### Errors when user filled wrong field
+<img width="482" alt="image" src="https://github.com/jyotithakur26/user-login/assets/140992312/5e65cb2b-8803-4ebb-8edb-bf3a25eb1cc1">
 
 ### After Submit the form, the value is displaying in table
-<img width="560" alt="image" src="https://github.com/jyotithakur26/user-login/assets/140992312/6761b9a7-80dc-4922-ab67-62bd6469a08a">
+<img width="467" alt="image" src="https://github.com/jyotithakur26/user-login/assets/140992312/b251a797-7453-4251-9855-f3f1cdb2688d">
 
 
 ## Typescript code
@@ -100,6 +100,7 @@ export class AppComponent implements OnInit {
     this.listObject = this.listObject.filter((item) => item.email !== emailId);
   }
 }
+
 ```
 
 
@@ -205,7 +206,26 @@ export class AppComponent implements OnInit {
               *ngIf="loading"
               class="spinner-border spinner-border-sm mr-1"
             ></span>
-            Add
+            Create Account
+          </button>
+          
+          <button class="btn btn-primary mr-l">
+            <span
+              class="spinner-border spinner-border-sm mr-1"
+            ></span>
+            Get User by ID
+          </button>
+          <button class="btn btn-primary">
+            <span
+              class="spinner-border spinner-border-sm mr-1"
+            ></span>
+            Get user by Username
+          </button>
+          <button class="btn btn-primary">
+            <span
+              class="spinner-border spinner-border-sm mr-1"
+            ></span>
+            Get all Users
           </button>
         </div>
       </form>
@@ -237,7 +257,7 @@ export class AppComponent implements OnInit {
               >
               <button
                 (click)="deleteUser(user.email)"
-                class="btn btn-sm btn-danger btn-delete-user"
+                class="btn btn-sm btn-danger btn-delete-user m-l"
                 [disabled]="user.isDeleting"
               >
                 <span
@@ -256,6 +276,9 @@ export class AppComponent implements OnInit {
     </div>
   </div>
 </div>
+
+<!-- <h1 *ngIf="!editFlag">Add User</h1>
+<h1 *ngIf="editFlag">Edit User</h1> -->
 
 ```
 
@@ -276,6 +299,9 @@ input.ng-invalid.ng-touched {
   width: 100%;
 }
 
+.btn-primary {
+  margin: 10px 10px 10px 0;
+}
 .mat-mdc-row .mat-mdc-cell {
   border-bottom: 1px solid transparent;
   border-top: 1px solid transparent;
