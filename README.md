@@ -17,6 +17,8 @@ I have placed my form code in `app component`, it has three files
 
 ### a. Create a new user account:
 <img width="488" alt="image" src="https://github.com/jyotithakur26/user-login/assets/140992312/aa6fe00b-9d5f-4f19-a861-5b67108f3d89">
+<img width="469" alt="image" src="https://github.com/jyotithakur26/user-login/assets/140992312/5ac26cc5-46b8-49d7-a5f8-9db7eba5f8d3">
+
 
 
 ### e. Update user details:
