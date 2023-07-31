@@ -29,10 +29,10 @@ I have placed my form code in `app component`, it has three files
 
 
 ### f. Delete a user:
-* Three user account before deleting
+* There are three user accounts before deleting.
 <img width="479" alt="image" src="https://github.com/jyotithakur26/user-login/assets/140992312/453ccb91-1a66-4be7-a618-c117ded64ca1">
 
-* Two auser account after deleted one account
+* Two user accounts left after deleted one account.
 <img width="481" alt="image" src="https://github.com/jyotithakur26/user-login/assets/140992312/90cdff67-7a4f-4cff-86a2-968dc37a113e">
 
 
