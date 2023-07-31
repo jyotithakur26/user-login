@@ -14,7 +14,27 @@ I have placed my form code in `app component`, it has three files
 * `app componet` is imported under the app.module.ts file
 
 ## Output Screenshot
+### Before fill the form
 <img width="838" alt="image" src="https://github.com/jyotithakur26/user-login/assets/140992312/fd368f72-be8c-4566-967a-eaa361bcd75b">
+
+### Error when user filled with wrong field
+<img width="643" alt="image" src="https://github.com/jyotithakur26/user-login/assets/140992312/cc9bbd1d-671c-48b0-8bf8-e53a5ca8b087">
+
+### After filled the form
+<img width="595" alt="image" src="https://github.com/jyotithakur26/user-login/assets/140992312/9153dbc8-7311-4e18-b019-ba2755385f74">
+
+### After Submit the form, the value stored in table
+<img width="560" alt="image" src="https://github.com/jyotithakur26/user-login/assets/140992312/6761b9a7-80dc-4922-ab67-62bd6469a08a">
+
+### Value edited/updated
+<img width="566" alt="image" src="https://github.com/jyotithakur26/user-login/assets/140992312/aa567844-4f74-402f-8049-329f4a7d0e0e">
+
+### Added Multiple value
+<img width="514" alt="image" src="https://github.com/jyotithakur26/user-login/assets/140992312/1184c548-dd10-4691-98c7-65bc351ac460">
+
+### Delete Value
+<img width="496" alt="image" src="https://github.com/jyotithakur26/user-login/assets/140992312/5676c638-1706-4dc5-8335-6267d990196f">
+
 
 
 
@@ -82,6 +102,8 @@ export class AppComponent implements OnInit {
   }
 }
 ```
+
+
 
 ## Html code
 
@@ -240,5 +262,42 @@ export class AppComponent implements OnInit {
 
 
 
+## Style
+
+```ts
+.container {
+  margin-top: 30px;
+}
+
+input.ng-invalid.ng-touched {
+  border: 1px solid red;
+}
+
+.demo-table {
+  width: 100%;
+}
+
+.mat-mdc-row .mat-mdc-cell {
+  border-bottom: 1px solid transparent;
+  border-top: 1px solid transparent;
+  cursor: pointer;
+}
+
+
+.mat-mdc-row:hover .mat-mdc-cell {
+  border-color: currentColor;
+}
+
+.demo-row-is-clicked {
+  font-weight: bold;
+}
+
+table {
+  border: 1px solid grey;
+  margin-top: 20px;
+}
+
+
+```
 
 
